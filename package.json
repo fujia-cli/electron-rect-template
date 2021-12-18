@@ -1,0 +1,38 @@
+{
+  "name": "@fujia/electron-rect-template",
+  "version": "0.0.1",
+  "description": "A template for electron build on @ui-puzzles/rect",
+  "keywords": [
+    "electron",
+    "template",
+    "@ui-puzzles/rect",
+    "stage"
+  ],
+  "scripts": {
+    "prepare": "husky install",
+    "release": "sh scripts/release.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "template"
+  ],
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": {
+    "name": "fujia",
+    "url": "https://github.com/fushenguang",
+    "email": "fujia.site@outlook.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "husky": "^7.0.4"
+  }
+}
